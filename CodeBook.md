@@ -1,10 +1,6 @@
----
-title: "CodeBook"
-output: html_notebook
-Theme: darkly
-editor_options: 
-  chunk_output_type: inline
----
+## CodeBook
+
+------------------------------------------------------------------------
 
 I have also written the steps taken inside the `run_analysis.R` script as well as here so it can be followed line by line
 
