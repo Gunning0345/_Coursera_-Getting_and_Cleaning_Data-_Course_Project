@@ -1,17 +1,12 @@
----
-title: "Getting and Cleaning Data - Coursera Project"
-output: html_notebook
-editor_options: 
-  chunk_output_type: inline
----
+# Coursera - Getting and Cleaning Data Project
 
-Peer-graded Assignment: Getting and Cleaning Data Course Project
+Peer-graded Assignment: Getting and Cleaning Data
 
 ------------------------------------------------------------------------
 
 This repository is for the Coursera "Getting and Cleaning Data" Course Project Assignment
 
-Inside this repository are 4 files
+Contained inside this repository are 4 files
 
 ------------------------------------------------------------------------
 
@@ -20,10 +15,6 @@ Inside this repository are 4 files
 `CodeBook.md` - Includes further detail on the step by step instructions, as well as descriptions of the variables, data and transformations made
 
 `run_analysis.R` - an R script that prepares, combines, cleans and produces an individual tidy dataset
-
-The data was supplied and described from "<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>"
-
-The dataset was downloaded from "<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>"
 
 `Tidy_Data.txt` - The exported cleaned individual dataset produced after running the `run_analysis.R` script
 
@@ -50,3 +41,9 @@ The `run_analysis.R` script follows the 10 steps outlined below:
 **Step 9** - Melting and Re-casting the dataset by the average of each variable for each `Activity` + `Subject`
 
 **Step 10** - Saves the cleaned dataset as a txt file = "`Tidy_Data.txt`"
+
+------------------------------------------------------------------------
+
+The dataset was produced and described from "<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>"
+
+The orignal data was downloaded and can be seen from "<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>"

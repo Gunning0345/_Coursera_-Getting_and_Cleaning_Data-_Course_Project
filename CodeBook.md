@@ -2,10 +2,10 @@
 
 ------------------------------------------------------------------------
 
+## **`run_analysis.R`**
+
 I have also written the steps taken inside the `run_analysis.R` script as well as here so it can be followed line by line
 
-> ### **`run_analysis.R`**
->
 > #### **Step 1 - Packages**
 >
 > -   Load in necessary packages
@@ -103,6 +103,10 @@ I have also written the steps taken inside the `run_analysis.R` script as well a
 > #### **Step 10 - Save as an independent tidy dataset**
 >
 > -   `write.table()` to create = "`Tidy_Data.txt`"
+
+------------------------------------------------------------------------
+
+# Resulting fields in `Tidy_Data.txt`
 
 ------------------------------------------------------------------------
 
